@@ -11,31 +11,29 @@
     document.head.appendChild(fontElement);
 
     // Apply widget styles with completely different design approach
- .chat-assist-widget {
-    --chat-color-primary: var(--chat-widget-primary, #2b6cb0);
-    --chat-color-secondary: var(--chat-widget-secondary, #4c51bf);
-    --chat-color-tertiary: var(--chat-widget-tertiary, #2c5282);
-    --chat-color-light: var(--chat-widget-light, #ebf8ff);
-    --chat-color-surface: var(--chat-widget-surface, #ffffff);
-    --chat-color-text: var(--chat-widget-text, #1a202c);
-    --chat-color-text-light: var(--chat-widget-text-light, #718096);
-    --chat-color-border: var(--chat-widget-border, #cbd5e0);
+.chat-assist-widget {
+    --chat-color-primary: #1e3a8a;         /* Deep Navy */
+    --chat-color-secondary: #3b82f6;       /* Sky Blue */
+    --chat-color-tertiary: #60a5fa;        /* Light Blue */
+    --chat-color-light: #eff6ff;           /* Very Light Blue */
+    --chat-color-surface: #ffffff;         /* Background */
+    --chat-color-text: #111827;            /* Rich Charcoal */
+    --chat-color-text-light: #6b7280;      /* Grey Text */
+    --chat-color-border: #d1d5db;          /* Light Border */
 
-    --chat-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --chat-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
     --chat-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --chat-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+    --chat-shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
 
-    --chat-radius-sm: 10px;
-    --chat-radius-md: 16px;
-    --chat-radius-lg: 24px;
+    --chat-radius-sm: 12px;
+    --chat-radius-md: 18px;
+    --chat-radius-lg: 30px;
     --chat-radius-full: 9999px;
 
-    --chat-transition: all 0.25s ease-in-out;
+    --chat-transition: all 0.3s ease-in-out;
 
-    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
-    document.head.appendChild(widgetStyles);
 
     // Default configuration
     const defaultSettings = {
